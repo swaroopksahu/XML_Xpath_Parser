@@ -20,7 +20,7 @@ import org.xml.sax.SAXException;
 public class XPathParserDemo {
    public static void main(String[] args) {
       try {
-         File inputFile = new File("input.txt");
+         File inputFile = new File("input.xml");
          DocumentBuilderFactory dbFactory 
             = DocumentBuilderFactory.newInstance();
          DocumentBuilder dBuilder;
